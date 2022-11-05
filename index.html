@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Search Box</title>
+    <!-- link Phosphor icons CDN -->
+    <script src="https://unpkg.com/phosphor-icons" defer></script>
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- Link JS File -->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="search-wrapper">
+      <div class="search-box">
+        <div class="dropdown">
+          <div class="default-option">
+            All
+          </div>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item">All</li>
+            <li class="dropdown-item">Images</li>
+            <li class="dropdown-item">Videos</li>
+            <li class="dropdown-item">Vectors</li>
+            <li class="dropdown-item">Icons</li>
+          </ul>
+        </div>
+        <div class="search-field">
+          <input
+            type="text"
+            name="search"
+            id="search-input"
+            placeholder="Search..."
+          />
+          <i class="ph-magnifying-glass-fill icon-search"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
